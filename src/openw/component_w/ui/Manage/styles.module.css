@@ -1,0 +1,65 @@
+.container {
+  width: 40vw;
+  height: auto;
+  background-color: var(--color-bg_c);
+  border-radius: 20px;
+  padding: 20px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.tabButtons {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.tabButton {
+  background-color: #40407a;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.tabButton:hover {
+  background-color: #565699;
+}
+
+.active {
+  background-color: #171749;
+}
+
+.contentArea {
+  background-color: #3a3a78;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.content {
+  font-size: 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: auto;
+  padding-bottom: 10px;
+}
+
+.content_text {
+  font-size: 1vw;
+  padding: 10px;
+  border-bottom: 2px solid rgba(255, 250, 250, 0.366);
+}
+
+.content_text:hover {
+  background-color: #171749;
+  border-radius: 20px;
+}
+
+.content_link {
+  font-size: 30px;
+  padding-top: 20px;
+}

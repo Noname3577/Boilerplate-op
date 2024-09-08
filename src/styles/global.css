@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --shadow-boxs_op: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02), 6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035), 22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05), 100px 100px 80px rgba(0, 0, 0, 0.07),
+    inset 3px 3px 5px 0 rgba(248, 248, 248, 0.3);
+  --color-bg_c: #353156;
+  --color-bg_b: #3c3a62;
+  --color-other-9: #5a6bbd;
+  --color-mark_text: #fe9605;
+  --color-boxs_icon: #adaab2;
+  --color-bg_a: #662c92;
+  --color-bg: #353156;
+  --color-new: #6fc15b;
+  --color-text: #ffffff;
+  --color-text_header: #f6b417;
+  --color-header_boxs: #1f1d33;
+}

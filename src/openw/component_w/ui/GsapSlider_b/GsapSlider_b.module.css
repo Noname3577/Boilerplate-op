@@ -1,0 +1,62 @@
+.sliderContainer {
+  width: 98.8vw;
+  overflow-x: clip;
+}
+
+.slider {
+  display: flex;
+  flex-direction: row; /* เปลี่ยนจาก column เป็น row */
+}
+
+.slide {
+  min-width: 40rem; /* เปลี่ยนจาก min-height เป็น min-width เพื่อให้กล่องเรียงกันในแนวนอน */
+  display: flex;
+  background-color: #4f466a;
+  border: 1px solid #ccc;
+  margin-right: 20px;
+  border-radius: 50px;
+  margin-top: 40px;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07),
+    inset 3px 3px 5px 0 rgba(248, 248, 248, 0.3);
+}
+
+.slide:hover {
+  background-color: #352f47;
+}
+
+.img_a {
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 3px;
+  margin-top: 4px;
+  border-radius: 50px;
+  margin-right: 10px;
+  border: 5px solid white;
+}
+
+.text_tx {
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 30rem;
+}
+
+.information {
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-around;
+  color: rgb(186, 187, 189);
+  font-size: 1vw;
+}

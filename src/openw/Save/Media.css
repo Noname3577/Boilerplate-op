@@ -1,0 +1,148 @@
+/*****************    1536px    ***************************/
+@media (min-width: 1536px) {
+  .popup_tap {
+    display: none;
+  }
+}
+
+@media (min-width: 1281px) and (max-width: 1535px) {
+  .popup_tap {
+    display: none;
+  }
+
+  .grid {
+    flex-wrap: wrap;
+  }
+}
+
+/*****************    1281px    ***************************/
+@media (min-width: 1026px) and (max-width: 1280px) {
+  .btn_a {
+    padding: 0.2em 0.5em;
+  }
+
+  .popup_tap {
+    display: none;
+  }
+
+  .test_stop {
+    display: none !important;
+  }
+}
+
+/*****************    1223px    ***************************/
+
+@media (max-width: 1223px) {
+  .Slider_body {
+    display: none;
+  }
+
+  .test_stop {
+    display: none !important;
+  }
+}
+
+/*****************    1025px    ***************************/
+@media (max-width: 1025px) {
+  .boxs_a {
+    display: none;
+  }
+
+  .popup_tap {
+    display: inline;
+  }
+
+  .Slider_body {
+    display: none;
+  }
+
+  .body_a {
+    margin-top: 6rem !important;
+    min-height: 60vh !important;
+  }
+
+  .textheaderbg {
+    h1 {
+      font-size: 10vw !important;
+    }
+
+    span {
+      font-size: 3vw !important;
+    }
+  }
+
+  .datain {
+    display: none !important;
+  }
+
+  .realtime_a_two_a {
+    width: 90vw;
+  }
+
+  .link_b {
+    width: 30rem;
+  }
+
+  .text_body_c {
+    width: 50rem;
+  }
+
+  .test_stop {
+    display: none !important;
+  }
+}
+
+/*****************    769px    ***************************/
+@media (max-width: 769px) {
+  .body_a {
+    margin-top: 6rem !important;
+    min-height: 60vh !important;
+  }
+
+  .textheaderbg {
+    h1 {
+      font-size: 10vw !important;
+    }
+
+    span {
+      font-size: 3vw !important;
+    }
+  }
+}
+
+/*****************    641px    ***************************/
+@media (max-width: 641px) {
+  .header_op {
+    justify-content: center;
+    gap: 2vw;
+  }
+
+  .example-2 .icon-content a {
+    width: 10vw;
+    height: 10vw;
+  }
+
+  .example-2 .icon-content a svg {
+    width: 7vw;
+    height: 7vw;
+  }
+
+  .button {
+    width: 20vw;
+  }
+
+  .body_a {
+    margin-top: 6rem !important;
+    min-height: 70vh !important;
+  }
+
+  .textheaderbg {
+    h1 {
+      font-size: 10vw !important;
+    }
+
+    span {
+      font-size: 3vw !important;
+    }
+  }
+}

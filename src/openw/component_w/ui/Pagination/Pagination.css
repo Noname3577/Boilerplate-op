@@ -1,0 +1,75 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination .btn_op {
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  background-color: #1f1d33;
+  cursor: pointer;
+}
+
+.pagination .active {
+  background-color: #ffc506;
+  border-radius: 0.3em;
+  padding: 0.5rem 1.4rem;
+  font-weight: bold;
+}
+
+.btn_op {
+  --color: #ffc506;
+  padding: 0.8em 1.7em;
+  background-color: transparent;
+  border-radius: 0.3em;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.5s;
+  font-weight: 400;
+  font-size: 17px;
+  border: 1px solid;
+  font-family: inherit;
+  text-transform: uppercase;
+  color: var(--color);
+  z-index: 1;
+}
+
+.btn_op::before,
+.btn_op::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border-radius: 50%;
+  z-index: -1;
+  background-color: var(--color);
+  transition: 1s ease;
+}
+
+.btn_op::before {
+  top: -1em;
+  left: -1em;
+}
+
+.btn_op::after {
+  left: calc(100% + 1em);
+  top: calc(100% + 1em);
+}
+
+.btn_op:hover::before,
+.btn_op:hover::after {
+  height: 410px;
+  width: 410px;
+}
+
+.btn_op:hover {
+  color: rgb(10, 25, 30);
+}
+
+.btn_op:active {
+  filter: brightness(0.8);
+}
